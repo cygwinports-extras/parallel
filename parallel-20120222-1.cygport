@@ -1,5 +1,0 @@
-DESCRIPTION="Shell tool to execute jobs in parallel"
-HOMEPAGE="http://www.gnu.org/software/parallel/"
-SRC_URI="mirror://gnu/parallel/${P}.tar.bz2"
-
-DIFF_EXCLUDES="*.1 *.html"

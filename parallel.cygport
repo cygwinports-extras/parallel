@@ -1,0 +1,15 @@
+NAME="parallel"
+VERSION=20121022
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="Shell tool to execute jobs in parallel"
+DESCRIPTION="GNU parallel is a shell tool for executing jobs in parallel using
+one or more computers. A job is can be a single command or a small script that
+has to be run for each of the lines in the input. The typical input is a list
+of files, a list of hosts, a list of users, a list of URLs, or a list of tables.
+A job can also be a command that reads from a pipe. GNU parallel can then split
+the input and pipe it into commands in parallel."
+HOMEPAGE="http://www.gnu.org/software/parallel/"
+SRC_URI="mirror://gnu/parallel/${P}.tar.bz2"
+
+DIFF_EXCLUDES="*.1 *.html"
