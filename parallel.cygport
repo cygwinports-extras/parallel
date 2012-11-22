@@ -1,5 +1,5 @@
 NAME="parallel"
-VERSION=20121022
+VERSION=20121122
 RELEASE=1
 CATEGORY="Utils"
 SUMMARY="Shell tool to execute jobs in parallel"
